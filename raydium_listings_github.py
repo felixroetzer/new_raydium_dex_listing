@@ -27,8 +27,7 @@ wallet_address = "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"
 seen_signatures = set()
 
 solana_client = Client("https://api.mainnet-beta.solana.com")
-solana_client_quicknode = Client(
-    "https://cosmopolitan-black-county.solana-mainnet.quiknode.pro/459c5dee18af06e260c66b38364130cff93c4d54/")
+solana_client_quicknode = Client("YOUR_QUICKNODE_URI")
 solana_client_devnet = Client("https://api.devnet.solana.com")
 solana_client_testnet = Client("https://api.testnet.solana.com")
 
