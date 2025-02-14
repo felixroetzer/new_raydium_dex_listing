@@ -13,12 +13,8 @@ from solders.signature import Signature
 import pandas as pd
 from tabulate import tabulate
 import time
-import threading
-import telegram
 import queue
 from collections import deque
-from dexscreener import DexscreenerClient
-from dexscreener.models import TokenPair
 from helpers import printd
 import datetime
 import os
